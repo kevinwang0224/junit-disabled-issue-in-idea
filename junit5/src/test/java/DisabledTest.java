@@ -4,14 +4,14 @@ import org.junit.jupiter.api.Test;
 @Disabled
 public class DisabledTest {
 
-	@Disabled
-	@Test
-	void disabledMethod() {
-		System.out.println("This is a disabled method.");
-	}
+    @Disabled
+    @Test
+    void disabledMethod() {
+        System.out.println("This is a disabled method.");
+    }
 
-	@Test
-	void enabledMethod() {
-		System.out.println("This is a enabled method.");
-	}
+    @Test
+    void enabledMethod() {
+        System.out.println("This is a enabled method.");
+    }
 }
